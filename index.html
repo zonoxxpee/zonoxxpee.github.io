@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ZONOXX Arena - Experiencia Gaming Definitiva</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Dynamic Background -->
+        <div class="bg-overlay"></div>
+        <div class="matrix-rain" id="matrix"></div>
+        <div class="cyberpunk-grid"></div>
+        <div class="floating-orbs"></div>
+
+        <!-- Header -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <div class="brand-icon"><i class="fas fa-gamepad"></i></div>
+                    <span class="brand-text">ZONOXX</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Inicio</a></li>
+                    <li><a href="#features" class="nav-link">Mis Redes</a></li>
+                    <li><a href="#tournament" class="nav-link">Torneos</a></li>
+                    <li>
+                        <a
+                            href="#community"
+                            class="nav-link"
+                            onclick="window.open('https://discord.gg/yrkyHtAyQZ','_blank')"
+                            >Comunidad</a
+                        >
+                    </li>
+                    <li><a href="#support" class="nav-link">Soporte</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button
+                        class="btn-download"
+                        onclick="window.open('https://www.mediafire.com/file_premium/hzoaqac2c18od2b/Deluxe_V26.rar/file','_blank')"
+                    >
+                        <i class="fas fa-download"></i> Descarga Gratis
+                    </button>
+                    <button
+                        class="btn-play"
+                        onclick="window.open('https://kick.com/zonoxxpe','_blank')"
+                    >
+                        <i class="fas fa-play"></i> SIGUEME
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-video"><div class="video-overlay"></div></div>
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="hero-badge">
+                        <span class="badge-text">GAMING DEFINITIVO</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-main">BIENVENIDOS</span>
+                        <span class="title-accent">A MI WEB</span>
+                    </h1>
+                    <p class="hero-description">
+                        Informacion sobre mi, mis redes y cosas importantes que
+                        te pueden servir.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn-primary-hero">
+                            <span class="btn-text">SUSCRIBETE</span>
+                            <div class="btn-glow"></div>
+                        </button>
+                        <button
+                            class="btn-secondary-hero"
+                            onclick="window.open('https://www.mediafire.com/file_premium/hzoaqac2c18od2b/Deluxe_V26.rar/file','_blank')"
+                        >
+                            <i class="fas fa-download"></i>
+                            <span>Descarga Gratis</span>
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">1.8K</div>
+                            <div class="stat-label">SEGUIDORES</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">FULL</div>
+                            <div class="stat-label">PARTIDAS</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">TORNEOS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="game-preview">
+                        <div class="preview-screen">
+                            <div class="screen-glow"></div>
+                            <div class="game-hud">
+                                <div class="hud-element hud-health">
+                                    <div class="hud-icon">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                    <div class="hud-bar">
+                                        <div class="bar-fill health-fill"></div>
+                                    </div>
+                                    <span class="hud-text">COMUNIDAD</span>
+                                </div>
+                                <div class="hud-element hud-ranking">
+                                    <div class="hud-icon">
+                                        <i class="fas fa-trophy"></i>
+                                    </div>
+                                    <div class="hud-info">
+                                        <span class="rank-text"
+                                            >Rangos Competitivos</span
+                                        >
+                                        <div class="rank-progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hud-element hud-battles">
+                                    <div class="hud-icon">
+                                        <i class="fas fa-sword"></i>
+                                    </div>
+                                    <div class="hud-info">
+                                        <span class="battle-text"
+                                            >Batallas de Equipo</span
+                                        >
+                                        <div class="battle-status">
+                                            5v5 Activo
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="floating-particles"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section id="features" class="social-section">
+            <div class="section-bg"><div class="cyber-grid"></div></div>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">MIS REDES SOCIALES</h2>
+                    <p class="section-subtitle">
+                        Sígueme en todas las plataformas
+                    </p>
+                </div>
+                <div class="social-grid">
+                    <div class="social-card discord">
+                        <div class="card-glow"></div>
+                        <div class="social-profile">
+                            <div class="profile-image-placeholder">
+                                <div class="image-upload-area">
+                                    <i class="fab fa-discord social-logo"></i>
+                                </div>
+                            </div>
+                            <div class="social-info">
+                                <h3 class="social-title">Discord</h3>
+                                <p class="social-description">
+                                    Únete a la comunidad y chatea en tiempo real
+                                </p>
+                                <a
+                                    href="https://discord.gg/yrkyHtAyQZ"
+                                    target="_blank"
+                                    class="social-link"
+                                    ><i class="fab fa-discord"></i
+                                    ><span>Unirse</span></a
+                                >
+                            </div>
+                        </div>
+                        <div class="card-accent discord-accent"></div>
+                    </div>
+                    <div class="social-card facebook">
+                        <div class="card-glow"></div>
+                        <div class="social-profile">
+                            <div class="profile-image-placeholder">
+                                <div class="image-upload-area">
+                                    <i
+                                        class="fab fa-facebook-f social-logo"
+                                    ></i>
+                                </div>
+                            </div>
+                            <div class="social-info">
+                                <h3 class="social-title">Facebook</h3>
+                                <p class="social-description">
+                                    Sígueme para contenido exclusivo y
+                                    actualizaciones diarias
+                                </p>
+                                <a
+                                    href="https://www.facebook.com/zonoxxpe"
+                                    target="_blank"
+                                    class="social-link"
+                                    ><i class="fab fa-facebook-f"></i
+                                    ><span>Seguir</span></a
+                                >
+                            </div>
+                        </div>
+                        <div class="card-accent facebook-accent"></div>
+                    </div>
+                    <div class="social-card kick">
+                        <div class="card-glow"></div>
+                        <div class="social-profile">
+                            <div class="profile-image-placeholder">
+                                <div class="image-upload-area">
+                                    <i class="fas fa-video social-logo"></i>
+                                </div>
+                            </div>
+                            <div class="social-info">
+                                <h3 class="social-title">Kick</h3>
+                                <p class="social-description">
+                                    Streams en vivo y gameplay épico todos los
+                                    días
+                                </p>
+                                <a
+                                    href="https://kick.com/zonoxxpe"
+                                    target="_blank"
+                                    class="social-link"
+                                    ><i class="fas fa-video"></i
+                                    ><span>Ver</span></a
+                                >
+                            </div>
+                        </div>
+                        <div class="card-accent kick-accent"></div>
+                    </div>
+                    <div class="social-card tiktok">
+                        <div class="card-glow"></div>
+                        <div class="social-profile">
+                            <div class="profile-image-placeholder">
+                                <div class="image-upload-area">
+                                    <i class="fab fa-tiktok social-logo"></i>
+                                </div>
+                            </div>
+                            <div class="social-info">
+                                <h3 class="social-title">TikTok</h3>
+                                <p class="social-description">
+                                    Videos cortos y momentos gaming más
+                                    divertidos
+                                </p>
+                                <a
+                                    href="https://www.tiktok.com/@zonoxx.pe?is_from_webapp=1&sender_device=pc"
+                                    target="_blank"
+                                    class="social-link"
+                                    ><i class="fab fa-tiktok"></i
+                                    ><span>Seguir</span></a
+                                >
+                            </div>
+                        </div>
+                        <div class="card-accent tiktok-accent"></div>
+                    </div>
+                    <div class="social-card youtube">
+                        <div class="card-glow"></div>
+                        <div class="social-profile">
+                            <div class="profile-image-placeholder">
+                                <div class="image-upload-area">
+                                    <i class="fab fa-youtube social-logo"></i>
+                                </div>
+                            </div>
+                            <div class="social-info">
+                                <h3 class="social-title">YouTube</h3>
+                                <p class="social-description">
+                                    Tutoriales, reviews y gameplays completos
+                                </p>
+                                <a
+                                    href="https://www.youtube.com/@zonoxxpe"
+                                    target="_blank"
+                                    class="social-link"
+                                    ><i class="fab fa-youtube"></i
+                                    ><span>Seguir</span></a
+                                >
+                            </div>
+                        </div>
+                        <div class="card-accent youtube-accent"></div>
+                    </div>
+                    <div class="social-card instagram">
+                        <div class="card-glow"></div>
+                        <div class="social-profile">
+                            <div class="profile-image-placeholder">
+                                <div class="image-upload-area">
+                                    <i class="fab fa-instagram social-logo"></i>
+                                </div>
+                            </div>
+                            <div class="social-info">
+                                <h3 class="social-title">Instagram</h3>
+                                <p class="social-description">
+                                    Fotos behind the scenes y momentos gaming
+                                </p>
+                                <a
+                                    href="https://www.instagram.com/zonoxxpe"
+                                    target="_blank"
+                                    class="social-link"
+                                    ><i class="fab fa-instagram"></i
+                                    ><span>Seguir</span></a
+                                >
+                            </div>
+                        </div>
+                        <div class="card-accent instagram-accent"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tournament Section -->
+        <section id="tournament" class="tournament-section">
+            <div class="tournament-bg">
+                <div class="tournament-particles"></div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">TORNEOS ACTIVOS</h2>
+                    <p class="section-subtitle">Únete a la Competencia</p>
+                </div>
+                <div class="tournament-grid">
+                    <div class="tournament-card main-tournament">
+                        <div class="tournament-badge">DESTACADO</div>
+                        <div class="tournament-image">
+                            <div class="image-overlay"></div>
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <div class="tournament-info">
+                            <h3 class="tournament-title">LIGA DELUXE 2025</h3>
+                            <div class="tournament-prize">$300 en Premios</div>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar"></i
+                                    ><span>10-08 Ago, 2025</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-users"></i
+                                    ><span>20 Equipos</span>
+                                </div>
+                            </div>
+                            <button class="btn-tournament">
+                                <span>UNIRSE AL TORNEO</span>
+                                <div class="btn-pulse"></div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tournament-list">
+                        <div class="tournament-item">
+                            <div class="item-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="item-info">
+                                <h4>Finales Regionales</h4>
+                                <span class="item-prize">$100</span>
+                            </div>
+                            <div class="item-status">
+                                <span class="status-live">EN VIVO</span>
+                            </div>
+                        </div>
+                        <div class="tournament-item">
+                            <div class="item-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="item-info">
+                                <h4>Liga Pro</h4>
+                                <span class="item-prize">$15,000</span>
+                            </div>
+                            <div class="item-status">
+                                <span class="status-upcoming">PRONTO</span>
+                            </div>
+                        </div>
+                        <div class="tournament-item">
+                            <div class="item-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="item-info">
+                                <h4>Desafío Semanal</h4>
+                                <span class="item-prize">$5,000</span>
+                            </div>
+                            <div class="item-status">
+                                <span class="status-open">ABIERTO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Section -->
+        <section id="support" class="support-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">SOPORTE</h2>
+                    <p class="section-subtitle">
+                        Envíanos un mensaje y te responderemos lo antes posible
+                    </p>
+                </div>
+
+                <div class="support-form-container">
+                    <form id="support-form" class="support-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Tu nombre"
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="Tu correo"
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                required
+                                placeholder="Escribe tu mensaje..."
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-support">
+                            <i class="fas fa-paper-plane"></i> Enviar Soporte
+                        </button>
+                    </form>
+
+                    <p id="status" class="support-status"></p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-bg">
+                <div class="footer-grid-pattern"></div>
+            </div>
+
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <div class="brand-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <span class="brand-text">ZONOXX</span>
+                    </div>
+
+                    <div class="footer-links">
+                        <div class="link-group">
+                            <h4>Esports</h4>
+                            <a href="#tournament">Torneos</a>
+                        </div>
+
+                        <div class="link-group">
+                            <h4>Comunidad</h4>
+                            <a href="#features">Redes Sociales</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-social">
+                        <a
+                            href="https://discord.gg/yrkyHtAyQZ"
+                            target="_blank"
+                            class="social-link"
+                        >
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a
+                            href="https://www.facebook.com/zonoxxpe"
+                            target="_blank"
+                            class="social-link"
+                        >
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a
+                            href="https://www.tiktok.com/@zonoxx.pe?is_from_webapp=1&sender_device=pc"
+                            target="_blank"
+                            class="social-link"
+                        >
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a
+                            href="https://kick.com/zonoxxpe"
+                            target="_blank"
+                            class="social-link"
+                        >
+                            <i class="fas fa-video"></i>
+                        </a>
+                        <a
+                            href="https://www.youtube.com/@zonoxxpe"
+                            target="_blank"
+                            class="social-link"
+                        >
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/zonoxxpe"
+                            target="_blank"
+                            class="social-link"
+                        >
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>
+                        &copy; 2024 ZONOXX Arena. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Script Soporte Discord -->
+        <script>
+            document
+                .getElementById("support-form")
+                .addEventListener("submit", async function (e) {
+                    e.preventDefault();
+                    const webhookURL =
+                        "https://discord.com/api/webhooks/1398013965866369198/Z7S5AugYnhkev4q7xgVFJ0F5W9XNBpA7TMBddk6cMcWFNNLanI9ny2oR0HsimKnYEAYG";
+                    const name = document.getElementById("name").value;
+                    const email = document.getElementById("email").value;
+                    const message = document.getElementById("message").value;
+                    const content = `📩 **Nuevo Soporte**\n👤 **Nombre:** ${name}\n📧 **Email:** ${email}\n💬 **Mensaje:** ${message}`;
+                    try {
+                        await fetch(webhookURL, {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({ content: content }),
+                        });
+                        document.getElementById("status").innerText =
+                            "✅ Soporte enviado correctamente.";
+                        document.getElementById("support-form").reset();
+                    } catch (error) {
+                        document.getElementById("status").innerText =
+                            "❌ Error al enviar el soporte.";
+                        console.error(error);
+                    }
+                });
+        </script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
